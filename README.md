@@ -6,7 +6,7 @@ Homework
 1)Install nodemon global
 
 
-2)Run Project with command npm start
+2)Run Project with command *npm start*
 
 
 3)Run command via postman -  POST 'localhost:3000/createall'
