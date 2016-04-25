@@ -14,7 +14,7 @@ router.get('/admin', function (req, res, next) {
 });
 
 router.get('/institution', function (req, res, next) {
-    Admin.findOne().exec(function (err, result) {
+    Institution.find().exec(function (err, result) {
         res.send(result);
     })
 });
