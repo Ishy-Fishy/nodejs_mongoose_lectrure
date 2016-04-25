@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/nodejs_lecture');
+// mongoose.connect('mongodb://localhost/nodejs_lecture');
 var app = express();
 
 // view engine setup
